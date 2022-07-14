@@ -1,0 +1,41 @@
+{
+  "package": {
+    "scripts": {
+      "prepare": "husky install"
+    },
+    "lint-staged": {
+      "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+        "prettier --write"
+      ]
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest",
+        "plugin:prettier/recommended"
+      ]
+    },
+    "dependencies": {
+      "react-router-dom": "^6.3.0",
+      "web-vitals": "^2.1.0"
+    },
+    "devDependencies": {
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^13.0.0",
+      "@testing-library/user-event": "^13.2.1",
+      "@types/jest": "^27.0.1",
+      "@types/node": "^16.7.13",
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0",
+      "autoprefixer": "^10.4.7",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-prettier": "^4.2.1",
+      "husky": "^8.0.1",
+      "lint-staged": "^13.0.3",
+      "postcss": "^8.4.14",
+      "prettier": "2.7.1",
+      "tailwindcss": "^3.1.5",
+      "typescript": "^4.4.2"
+    }
+  }
+}

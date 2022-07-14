@@ -1,0 +1,24 @@
+{
+  "name": "cra-template-daily",
+  "version": "0.0.1",
+  "description": "The Daily Typescript template for Create React App",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "daily"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:superyangchuan/cra-template-daily.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
